@@ -42,7 +42,8 @@ public class CarRepoTest {
     @Test
     public void testDelete() {
         this.carRepo.delete(this.carRepo.getById(4));
-        //BS little test for now
+        //BS little test for now. Does not delete by ID but I wanted to outline 
+        //the CRUD tools for the repo
 
     }
 
